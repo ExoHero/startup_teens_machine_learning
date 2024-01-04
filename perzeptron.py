@@ -45,7 +45,7 @@ feature = np.array([[37.92655435, 23.90101111],
                     [2.15139117, 4.16668657],
                     [2.38283228, 3.83347914]])
 
-feature = np.concatenate((feature, np.ones(43).reshape(43, 1)), axis=1)
+feature = np.concatenate((feature, np.ones(43).reshape(43, 1)), axis=(1)
 labels = np.concatenate((np.ones(21), np.zeros(22)))
 
 
